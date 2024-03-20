@@ -1,0 +1,22 @@
+.hover-item{
+    width: 500px;
+    height: 500px;
+    background-color: #efd0da;
+    transform: scale(1);
+    transition: 2s;
+}
+.hover-item:hover{
+    width: 500px;
+    height: 500px;
+    background-color: #690323;
+    transform: scale(.75);
+    transition: 2s;
+}
+#text{
+    font-size: 80px;
+    display: none;
+}
+.hover-item:hover #text{
+    display: block;
+    transition: 2s;
+}
