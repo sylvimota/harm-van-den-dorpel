@@ -1,5 +1,5 @@
 body{
-    background-color: #979F38;
+    background-color: #CC366C;
     font-family: 'Kumbh Sans Bold';
     font-size: 36px;
     text-align: center;
@@ -13,27 +13,65 @@ header{
 .header{
     height: 105px
 }
+
+.container {  display: grid;
+    grid-template-columns: 1fr 3fr 2.7fr 0.6fr;
+    grid-template-rows: 100px 0.5fr 2.7fr 2.3fr 1.3fr 0.2fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+.img1 { grid-area: 3 / 3 / 4 / 4; }
+  
+.img2 { grid-area: 4 / 2 / 5 / 3; }
+
+.img3 { grid-area: 5 / 3 / 6 / 4; }
+  
+.text2 { grid-area: 4 / 3 / 5 / 4; }
+  
+.text1 { grid-area: 3 / 2 / 4 / 3; }
+  
+.text3 { grid-area: 5 / 2 / 6 / 3; }
+  
+.head { grid-area: 1 / 1 / 2 / 5; }
+.nav { grid-area: 2 / 1 / 3 / 5; }
+  
+.gap1 { grid-area: 3 / 1 / 7 / 2; }
+.gap2 { grid-area: 3 / 4 / 7 / 5; }
+  
+
+h2{
+    font-size: 24px;
+    font-family: 'Kumbh Sans Bold'; 
+}
+p{
+    font-size: 20px;
+    font-family: 'Kumbh Sans';
+}
+
+  
+
+@font-face{
+    font-family: 'Reenie Beanie';
+    src: url(../fonts/ReenieBeanie.woff2) format('woff2'),
+        url(../fonts/ReenieBeanie.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
     font-family: 'Kumbh Sans Bold';
-    src: url(fonts/KumbhSans-Bold.woff2) format('woff2'),
-        url(fonts/KumbhSans-Bold.woff) format('woff');
+    src: url(../fonts/KumbhSans-Bold.woff2) format('woff2'),
+        url(../fonts/KumbhSans-Bold.woff) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 } 
 @font-face {
     font-family: 'Kumbh Sans';
-    src: url(fonts/KumbhSans-Regular.woff2) format('woff2'),
-        url(fonts/KumbhSans-Regular.woff) format('woff');
+    src: url(../fonts/KumbhSans-Regular.woff2) format('woff2'),
+        url(../fonts/KumbhSans-Regular.woff) format('woff');
     font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Reenie Beanie';
-    src: url(fonts/ReenieBeanie.woff2) format('woff2'),
-        url(fonts/ReenieBeanie.woff) format('woff');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
