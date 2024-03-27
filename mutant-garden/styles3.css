@@ -49,6 +49,18 @@ p{
     font-family: 'Kumbh Sans';
 }
 
+.foot { 
+    grid-area: 6 / 1 / 7 / 6; 
+    background-color: #695CC4;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    font-family: 'Kumbh Sans';
+    font-size: 25px;
+}
+
   
 
 @font-face{

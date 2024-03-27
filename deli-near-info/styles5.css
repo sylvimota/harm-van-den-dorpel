@@ -20,6 +20,18 @@ header{
     gap: 0px 0px;
     grid-auto-flow: row;
   }
+
+.foot { 
+    grid-area: 6 / 1 / 7 / 6; 
+    background-color: #695CC4;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    font-family: 'Kumbh Sans';
+    font-size: 25px;
+}
   
 .img1 { grid-area: 3 / 3 / 4 / 4; }
   
