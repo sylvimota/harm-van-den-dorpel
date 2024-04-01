@@ -29,6 +29,30 @@ body{
     font-size: 36px;
     text-align: center;
 }
+
+.body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(images/home.png);
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        background-image: url(images/mobilehome.png);
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .body{
+        background-image: url(images/tablethome.png);
+        margin: auto;
+    }
+}
+
 header{
     font-family: 'Reenie Beanie';
     padding: 1px;
