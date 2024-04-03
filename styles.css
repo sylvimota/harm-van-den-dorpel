@@ -66,26 +66,28 @@ body{
     .body {
         background-image: url(images/mobilehome.png);
         margin: auto;
-        max-width: 40%;
+        max-width: 60%;
+        font-size: 6%;
     }
     .head{
-        height: 30%;
+        height: 17.5%;
         font-size: 30%;
     }
-    .navbar{
-        font-size: 30%;
+    .navbar a{
+        font-size: 4%;
     }
     .image{
-        background-size: 30%;
+        width: 10%;
+        height: 10%;
     }
     .harm{
-        font-size: 30%;
+        font-size: 8.3%;
     }
     .vanden{
-        font-size: 30%;
+        font-size: 8.67%%;
     }
     .dorpel{
-        font-size: 30%;
+        font-size: 8.3%;
     }
 }
 
