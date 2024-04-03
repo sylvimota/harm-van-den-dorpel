@@ -88,47 +88,16 @@ p{
     .body {
         background-image: url(../images/mobileabout.png);
         margin: auto;
+        max-width: fit-content;
     }
-    .container {
-        grid-template-columns: 30%;
-        grid-template-columns: 1;
-        justify-content: center;
-        align-items: center;
-    }
-    .text{
-        grid-area: 4 / 1 / 5 / 2; 
-        width: fit-content;
-        justify-content: left;
-        align-items: left;
-    }
-    .image{
-        grid-area: 3 / 1 / 4 / 2; 
-        justify-content: left;
-        align-items: left;
-    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
     .body{
         background-image: url(../images/tabletabout.png);
         margin: auto;
-    }
-    .container {
-        grid-template-columns: 47.5%;
-        grid-template-columns: 1;
-        justify-content: center;
-        align-items: center;
-    }
-    .text{
-        grid-area: 4 / 1 / 5 / 2; 
-        width: max-content;
-        justify-content: left;
-        align-items: left;
-    }
-    .image{
-        grid-area: 3 / 1 / 4 / 2; 
-        justify-content: left;
-        align-items: left;
+        max-width: fit-content;
     }
 }
 

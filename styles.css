@@ -66,23 +66,16 @@ body{
     .body {
         background-image: url(images/mobilehome.png);
         margin: auto;
-        max-width: 600px;
+        max-width: fit-content;
     }
-    .container {
-        justify-content: center;
-        align-items: center;
-    }
+   
 }
 
 @media only screen and (max-width: 1024px) {
     .body{
         background-image: url(images/tablethome.png);
         margin: auto;
-        max-width: 1024px;
-    }
-    .container {
-        justify-content: center;
-        align-items: center;
+        max-width: fit-content;
     }
 }
 
