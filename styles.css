@@ -71,27 +71,28 @@ body{
         width: 60%;
         font-size: 6%;
     }
+    .container{
+        width: 600px;
+        margin: auto;
+    }
     .head{
-        font-size: 30%;
         margin: auto;
     }
     .navbar a{
-        font-size: 4%;
         margin: auto;
     }
     .image{
         margin:auto;
+        height: 100%;
+        width: 100%;
     }
     .harm{
-        font-size: 8.3%;
         margin:auto;
     }
     .vanden{
-        font-size: 8.67%;
         margin:auto;
     }
     .dorpel{
-        font-size: 8.3%;
         margin:auto;
     }
 }
