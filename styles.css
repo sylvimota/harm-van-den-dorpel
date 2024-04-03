@@ -68,32 +68,10 @@ body{
     .body {
         background-image: url(images/mobilehome.png);
         margin: auto;
-        width: 60%;
-        font-size: 6%;
     }
     .container{
         width: 600px;
         margin: auto;
-    }
-    .head{
-        margin: auto;
-    }
-    .navbar a{
-        margin: auto;
-    }
-    .image{
-        margin:auto;
-        height: 100%;
-        width: 100%;
-    }
-    .harm{
-        margin:auto;
-    }
-    .vanden{
-        margin:auto;
-    }
-    .dorpel{
-        margin:auto;
     }
 }
 
@@ -101,7 +79,6 @@ body{
     .body{
         background-image: url(images/tablethome.png);
         margin: auto;
-        max-width: 47.5%;
     }
 }
 
