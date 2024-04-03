@@ -97,7 +97,7 @@ p{
     }
     .text{
         grid-area: 4 / 1 / 5 / 2; 
-        width: max-content;
+        width: fit-content;
         justify-content: left;
         align-items: left;
     }
