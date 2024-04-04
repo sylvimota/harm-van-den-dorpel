@@ -42,7 +42,7 @@ body{
 
 .container {  
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-template-rows: 100px 0.5fr 20px 3.3fr 50px 44px;
     gap: 0px 0px;
     justify-content: center;
@@ -69,10 +69,6 @@ body{
         background-image: url(images/mobilehome.png);
         margin: auto;
     }
-    .container{
-        width: 600px;
-        margin: auto;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -87,6 +83,10 @@ header{
     padding: 1px;
     background-color: #FFFDF6;
     text-align: center;
+}
+
+h1{
+    padding-top: 5px;
 }
 .header{
     height: 105px
