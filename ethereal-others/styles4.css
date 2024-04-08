@@ -47,8 +47,16 @@ header{
     gap: 5px 5px ;
     grid-auto-flow: row;
     margin: auto;
-  }
+}
   
+
+img{
+    transition: all 0.5s ease;
+} 
+img:hover{
+    transform: scale(105%);
+}
+
 .img1 { grid-area: 4 / 3 / 5 / 4; 
     padding-top: 220px;
 
@@ -203,4 +211,7 @@ header a:visited{
 
 a:hover{
     color: #aba0ff;
+}
+.navbar a:hover{
+    color: #00308a;
 }

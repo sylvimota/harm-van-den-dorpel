@@ -185,3 +185,6 @@ header a:visited{
 a:hover{
     color: #aba0ff;
 }
+.navbar a:hover{
+    color: #00308a;
+}
