@@ -33,7 +33,7 @@ header{
         margin: auto;
     }
     .container{
-        overflow: scroll;
+        scale: 80%;
     }
 }
 
@@ -43,7 +43,7 @@ header{
         margin: auto;
     }
     .container{
-        overflow: scroll;
+        scale: 80%;
     }
     
 }
