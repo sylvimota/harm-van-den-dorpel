@@ -71,7 +71,6 @@ body{
     }
     .container{
         overflow: scroll;
-        scale: 80%;
     }
 }
 
@@ -82,7 +81,6 @@ body{
     }
     .container{
         overflow: scroll;
-        scale: 80%;
     }
 }
 

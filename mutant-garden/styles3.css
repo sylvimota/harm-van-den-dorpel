@@ -34,7 +34,6 @@ header{
     }
     .container{
         overflow: scroll;
-        scale: 80%;
     }
 }
 
@@ -45,7 +44,6 @@ header{
     }
     .container{
         overflow: scroll;
-        scale: 80%;
     }
     
 }
