@@ -42,7 +42,7 @@ body{
 
 .container {  
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px 0.5fr 20px 3.3fr 50px 44px;
     gap: 0px 0px;
     justify-content: center;
@@ -50,7 +50,7 @@ body{
     grid-auto-flow: row;
 }
 
-.image { grid-area: 4 / 1 / 5 / 2; 
+.image { grid-area: 4 / 2 / 5 / 5; 
     height: 639px;
     width: 1040px;
     justify-content: center;
@@ -69,18 +69,13 @@ body{
         background-image: url(images/mobilehome.png);
         margin: auto;
     }
-    .container{
-        scale: 80%;
-    }
+
 }
 
 @media only screen and (max-width: 1024px) {
     .body{
         background-image: url(images/tablethome.png);
         margin: auto;
-    }
-    .container{
-        scale: 80%;
     }
 }
 
@@ -91,15 +86,12 @@ header{
     text-align: center;
 }
 
-h1{
-    padding-top: 5px;
-}
 .header{
     height: 105px
 }
 
 .foot { 
-    grid-area: 6 / 1 / 7 / 2;
+    grid-area: 6 / 1 / 7 / 6;
     background-color: #695CC4;
     color: white;
     display: grid;
@@ -109,44 +101,51 @@ h1{
     font-family: 'Kumbh Sans';
     font-size: 25px;
 }
-.break2 { grid-area: 5 / 1 / 6 / 2; }
-.break { grid-area: 3 / 1 / 4 / 2; }
+.break2 { grid-area: 5 / 1 / 6 / 6; }
+.break { grid-area: 3 / 1 / 4 / 6; }
   
 .head { 
-    grid-area: 1 / 1 / 2 / 2; }
+    grid-area: 1 / 1 / 2 / 6; }
   
 .nav {
-    grid-area: 2 / 1 / 3 / 2; }
+    grid-area: 2 / 1 / 3 / 6; }
   
 .harm{
-    grid-area: 4/1/5/2;
+    grid-area: 4/2/5/4;
     text-align: left;
     color: black;
     font-size: 50px;
     position: relative;
-    padding-left: 190px;
+    padding-left: 90px;
     animation: slideUp 3s;
 }
         
 .vanden{
-    grid-area: 4/1/6/2;
+    grid-area: 4/3/5/4;
     text-align: center;
     color: black;
     font-size: 52px;
     position: relative;
-    padding-top: 390px;
+    padding-top: 430px;
     animation: slideUp 3s;
 }
         
 .dorpel{
-    grid-area: 4/1/5/2;
+    grid-area: 4/3/5/5;
     text-align: right;
     color: black;
     font-size: 50px;
     position: relative;
-    padding-right: 160px;
+    padding-right: 70px;
     animation: slideUp 3s;
 }
+.gap1{
+    grid-area: 4 / 1 / 5 / 2;
+}
+.gap2{
+    grid-area: 4 / 5 / 5 / 6;
+}
+
 
 @keyframes slideUp{
     0%,
