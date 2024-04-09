@@ -62,7 +62,14 @@ img{
 img:hover{
     transform: scale(105%);
 }
-  
+
+figcaption{
+    font-size: 20px;
+    padding: 12px;
+    font-family: 'Kumbh Sans';
+    color: white;
+}
+
 .img1 { grid-area: 4 / 3 / 5 / 4; 
     padding-top: 180px;
 }

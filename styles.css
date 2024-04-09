@@ -45,8 +45,6 @@ body{
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px 0.5fr 20px 3.3fr 50px 44px;
     gap: 0px 0px;
-    justify-content: center;
-    align-items: center;
     grid-auto-flow: row;
 }
 
@@ -61,6 +59,7 @@ body{
 @media (max-width: 1512px){
     .body{
         background-image: url(images/home.png);
+        overflow: scroll;
     }
 }
 
@@ -116,8 +115,10 @@ header{
     color: black;
     font-size: 50px;
     position: relative;
-    padding-left: 90px;
-    animation: slideUp 3s;
+    padding-left: 100px;
+    animation: slideUp 2s;
+    justify-content: center;
+    padding-top: 200px;
 }
         
 .vanden{
@@ -127,7 +128,8 @@ header{
     font-size: 52px;
     position: relative;
     padding-top: 430px;
-    animation: slideUp 3s;
+    animation: slideUp 2s;
+    
 }
         
 .dorpel{
@@ -136,8 +138,9 @@ header{
     color: black;
     font-size: 50px;
     position: relative;
-    padding-right: 70px;
-    animation: slideUp 3s;
+    padding-right: 55px;
+    animation: slideUp 2s;
+    padding-top: 200px;
 }
 .gap1{
     grid-area: 4 / 1 / 5 / 2;
@@ -148,12 +151,10 @@ header{
 
 
 @keyframes slideUp{
-    0%,
-    50%{
+    0%{
         transform: translateY(100%);
         opacity: 0;
     }
-    60%,
     100%{
         transform: translateY(0);
         opacity: 1;
