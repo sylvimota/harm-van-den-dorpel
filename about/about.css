@@ -91,7 +91,7 @@ p{
         margin: auto;
         max-width: fit-content;
     }
-    .container{
+   /* .container{
         overflow: scroll;
         grid-template-columns: 3;
         grid-template-rows: 7;
@@ -121,7 +121,7 @@ p{
     }
     .foot{
         grid-area: 7/1/8/4;
-    }
+    } */
     
 }
 
@@ -131,22 +131,6 @@ p{
         margin: auto;
         max-width: fit-content;
     }
-    .container{
-        overflow: scroll;
-        grid-template-columns: 1;
-        grid-template-rows: 6;
-        gap: 0px 0px;
-    }
-    .image{
-        grid-area: 4/1/5/2;
-    }
-    .text{
-        grid-area: 5/1/6/2;
-        text-align: left;
-        padding: 10px;
-        margin: 20px;
-        max-width: 510px;
-    } 
 }
 
 
