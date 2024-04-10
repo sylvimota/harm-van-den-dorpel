@@ -76,7 +76,6 @@ p{
     grid-template-rows: 100px 0.5fr 1px 3.3fr 1.5fr 55px;
     gap: 0px 0px;
     grid-auto-flow: row;
-    overflow: scroll;
 }
 
 @media (max-width: 1512px){
