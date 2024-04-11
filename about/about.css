@@ -82,6 +82,7 @@ p{
 @media (max-width: 1512px){
     .body{
         background-image: url(../images/about.png);
+        margin: auto;
     }
 }
 
